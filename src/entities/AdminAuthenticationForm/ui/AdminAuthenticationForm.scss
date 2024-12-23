@@ -1,0 +1,38 @@
+.adminauthform {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 25vh;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    &__input {
+        border: 1px solid #8c8989;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        line-height: 25px;
+        outline: none;
+    }
+
+    &__submit-button {
+        background: #000000;
+        width: 100%;
+        color: #ffffff;
+        padding: 14px 0 14px 0;
+        border: none;
+        border-radius: 2px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        max-width: 358px;
+        margin: 20px auto 0;
+        display: block;
+    }
+    &__submit-button_inactive {
+        color: #c4c4c4;
+        background: #ffffff;
+        border: 1px solid #c4c4c4;
+    }
+}

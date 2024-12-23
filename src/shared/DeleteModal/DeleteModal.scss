@@ -1,0 +1,32 @@
+.deletemodal {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    justify-content: center;
+    padding: 45px 25px;
+    &__title {
+        font-size: 24px;
+    }
+    &__info {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    &__product-image {
+        width: 300px;
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+        border-radius: 15px;
+    }
+    &__product-name {
+        text-align: center;
+        font-size: 18px;
+    }
+    &__button-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 35px;
+    }
+}

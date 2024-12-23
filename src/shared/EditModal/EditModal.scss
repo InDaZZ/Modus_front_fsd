@@ -1,0 +1,42 @@
+.editmodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Inter;
+    padding: 10px 5px;
+    &-heading {
+        margin: 10px 0 10px;
+    }
+    &__image {
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    &__input-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    &__field {
+        margin-top: 5px;
+        border-bottom: 1px solid rgb(128, 128, 128, 0.5);
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding-bottom: 5px;
+    }
+    &__input-name {
+        text-wrap: balance;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    &-input {
+        border: 2px solid rgb(255, 157, 46);
+        font-weight: 400;
+        font-size: 18px;
+        width: 85%;
+        border-radius: 5px;
+        margin: 5px auto 0;
+    }
+}

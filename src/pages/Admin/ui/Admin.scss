@@ -1,0 +1,18 @@
+.admin {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    font-family: Inter;
+    font-size: 18px;
+    padding: 30px;
+    &__category {
+        padding: 10px;
+        color: #ededed;
+        background-color: black;
+        text-decoration: none;
+        outline: none;
+        border: 1px solid #b0b0b0;
+        border-radius: 5px;
+        text-align: center;
+    }
+}

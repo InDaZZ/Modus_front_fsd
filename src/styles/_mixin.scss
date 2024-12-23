@@ -1,0 +1,22 @@
+@mixin adaptiv-text($max, $min) {
+  font-size: clamp(#{$min}px, #{max / 1280 * 100}vw, #{$max}px);
+}
+@mixin reset-link {
+  color: inherit;
+  &,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@mixin reset-buttton {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+@mixin absolute-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

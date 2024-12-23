@@ -1,0 +1,17 @@
+@use '../../../../styles/index' as *;
+
+.productbutton {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #f5f4f2;
+    border: 1px solid #f5f4f2;
+    @include hover {
+        cursor: pointer;
+        transition: border-color 0.5s;
+        border-color: var(--orange-main);
+    }
+}

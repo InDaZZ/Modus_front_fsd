@@ -1,0 +1,50 @@
+.map__style {
+  margin: auto;
+  width: 100%;
+  height: 300px;
+  border: 1px solid var(--orange-main);
+  box-sizing: border-box;
+}
+
+.footer {
+  margin-top: 100px;
+  font-family: Inter;
+  width: 100%;
+  background-color: var(--black-easy);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  &__contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__contacts {
+    margin: 0;
+    font-weight: normal;
+  }
+  &__contact {
+    margin: 10px 0;
+  }
+  &__hh-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    color: #ffffff;
+    text-align: center;
+  }
+  &__hh {
+    margin: 0;
+    font-weight: normal;
+  }
+  &__hh-link {
+    color: #8fddff;
+    margin: 10px 0;
+  }
+  &__hh-qrlink {
+    max-width: 200px;
+    margin: auto;
+  }
+}
